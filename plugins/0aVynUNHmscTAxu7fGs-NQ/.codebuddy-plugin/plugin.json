@@ -1,0 +1,11 @@
+{
+  "name": "0aVynUNHmscTAxu7fGs-NQ",
+  "description": "商家自带 Chatwoot 的客服接待套件：连接你的 Chatwoot 账号后，读未处理会话、草拟回复、人工确认后发送，全程你自己的租户与凭据（BYOK）。含客服接待技能与使用指南。",
+  "version": "1",
+  "author": {
+    "name": "FindData · 谦面"
+  },
+  "skills": [
+    "./skills"
+  ]
+}

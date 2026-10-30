@@ -1,0 +1,8 @@
+{
+  "name": "LjTJZWqSr2AOX7WEFTVlpg",
+  "description": "营销线集群模板：选题→撰稿→审读→发布草稿四岗 handoff 链（错峰 cron ≥30min）+闸位岗独立对拍（gold 命中/覆盖，评测报告落草稿）。量级话术红线（禁精确数字）、审读放行唯一门、发布走提案不直发。装包后经壹座「从模板实例化」建队；纪律来自共用层四包（同 cell 装）。",
+  "version": "7",
+  "author": {
+    "name": "FindData · 谦面"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "YAQkdDIH7R824pV2yPFNzA",
+  "description": "5.1 同径验收件：非运营身份经普通发布门发布的单角色最小门面（单接待+单语料技能）。",
+  "version": "1",
+  "author": {
+    "name": "FindData · 谦面"
+  },
+  "skills": [
+    "./skills"
+  ]
+}

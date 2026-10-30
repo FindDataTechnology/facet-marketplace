@@ -1,0 +1,11 @@
+{
+  "name": "8edSwnv3lIXcuSAkzS9vvA",
+  "description": "柏讯数据治理套件：读表单收上来的数据、改错一条记录、撤销改错、查改错历史、导出 CSV。写修正必须带来源标记（source）且不得代填；撤销只置回滚标记，原始行永不改写；导出带 truncated 字段，被行数闸截断时如实告知。失败原样转述，禁止以空列表冒充无数据。",
+  "version": "1",
+  "author": {
+    "name": "FindData · 谦面"
+  },
+  "skills": [
+    "./skills"
+  ]
+}

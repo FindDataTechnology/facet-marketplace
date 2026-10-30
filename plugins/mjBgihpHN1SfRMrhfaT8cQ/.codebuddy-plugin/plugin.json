@@ -1,0 +1,11 @@
+{
+  "name": "mjBgihpHN1SfRMrhfaT8cQ",
+  "description": "M5.2 开门首验：platform-test（非 creator）经开放发布门发布的第一个 AI 分身。语料为演示占位——正式演示内容随后续版本补充。",
+  "version": "1",
+  "author": {
+    "name": "FindData · 谦面"
+  },
+  "skills": [
+    "./skills"
+  ]
+}

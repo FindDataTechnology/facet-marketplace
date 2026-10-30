@@ -1,0 +1,90 @@
+---
+name: "fd-daas-based-data-fetch"
+description: "按 data-fetch 工作流清单取数：经 fd-open-data-mcp 解析实体并按日期读概念值，返回数据行与来源标识，可选落库"
+---
+
+# fd-daas-based-data-fetch (thin shell)
+
+Fetch data by running the `data-fetch` workflow manifest. The manifest owns
+resolve→fetch over fd-open-data-mcp; this skill gathers params, runs the
+manifest, handles checkpoints, and optionally persists the returned rows. No
+direct `sqlite3` entity resolution, no `scripts/dispatch.py`, no
+`uv run --with <lib>` direct import — those moved behind the manifest.
+
+## When to use
+
+- "fetch AAPL close price for last month / 查一下比亚迪的日线"
+- "get CPI for China / fetch EDGAR filing X"
+
+Do NOT use for: building a dashboard (`fd-daas-dashboard-creator`), creating an
+entity collection (`fd-daas-entities-collection-creator`), or computing an
+indicator over an existing series (use the `indicators` manifest /
+`daas_run_indicator`).
+
+## Step 1 — Gather params
+
+The `data-fetch` manifest takes:
+
+| param | type | how to discover |
+|-------|------|-----------------|
+| `entity_type` | str (`stock`/`country`) | user intent |
+| `entity_id` | int | `gateway_call_data_mcp('fd-open-data-mcp','list_entities', {entity_type, query})` |
+| `source` | str (`yfinance`/`akshare`/`edgar`/`edinet`/…) | user or coverage lookup |
+| `concept_id` | int | `gateway_call_data_mcp('fd-open-data-mcp','list_concepts', {entity_type})` |
+| `dates` | list[str] | user date range, ISO `YYYY-MM-DD` |
+
+## Step 2 — Run the manifest
+
+```python
+workflow_run(name="data-fetch", params_json=json.dumps({
+    "entity_type": "stock",
+    "entity_id": 1,
+    "source": "yfinance",
+    "concept_id": 1,
+    "dates": ["2025-01-01", "2025-01-31"]
+}))
+```
+
+Returns `outputs`: `{"rows": [...], "identifier": "AAPL"}`. `rows` is the list
+of concept records read over `dates`; `identifier` is the source-mapping the
+`resolve` step resolved for the entity.
+
+## Step 3 — Checkpoint handling
+
+If `status` is `paused`, the manifest hit a `type: checkpoint` step. Inspect
+the `resume_token` + the sentinel step at `sort_order=0`, decide (e.g. confirm
+the resolved identifier), then:
+
+```python
+workflow_resume(run_id=<run_id>, approved=True)   # approved=False marks the run failed
+```
+
+`workflow_inspect(name="data-fetch")` shows the validated step plan without
+executing — use it to preview before a run.
+
+## Step 4 — Persist (optional, scripts/upsert.py)
+
+The manifest does NOT write to `scraw_*` — persistence stays in this shell.
+To persist the returned rows into a scraw table:
+
+```bash
+uv run python scripts/upsert.py --table scraw_<slug> --keys date \
+  --records '<json: outputs.rows>'
+```
+
+For a single-value series bound to an indicator, skip raw persistence and use
+the `indicators` manifest (`daas_run_indicator`) which writes `observations`
+directly. `upsert.py` backs up `daas.db` to `.bak` first and sets
+`PRAGMA foreign_keys=ON`. **No automatic refresh** — re-run Step 2 when you want
+fresh data.
+
+## Hard rules
+
+- **Fetch goes through `workflow_run("data-fetch", …)`.** No direct `sqlite3`
+  entity resolution, no `scripts/dispatch.py`, no
+  `uv run --with akshare/yfinance/…` direct library import. The manifest owns
+  resolve→fetch; this skill owns param gathering + optional persist.
+- **Persist via `scripts/upsert.py`** (scraw) or the `indicators` manifest
+  (observations). Back up `daas.db` before bulk writes (upsert.py does this).
+- **Validate dynamic identifiers** against `^[A-Za-z_][A-Za-z0-9_]*$` before
+  interpolating table/column names into SQL.

@@ -1,0 +1,11 @@
+{
+  "name": "XfyXvzONQFelnFIgM0dJVw",
+  "description": "识律控制台的副驾：五页导览、配额与账单口径解读、凭据管理指引；经问询卡确认后可提议 navigate/refresh 页面动作（由宿主页面执行）。无账户数据读取与写操作工具，绝不编造数字。",
+  "version": "2",
+  "author": {
+    "name": "FindData · 谦面"
+  },
+  "skills": [
+    "./skills"
+  ]
+}

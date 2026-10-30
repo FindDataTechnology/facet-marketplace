@@ -1,0 +1,11 @@
+{
+  "name": "6kDsKgmb-3_86A81VZC6UA",
+  "description": "M4② 绿地从目录部署验收——外作者的可部署 pack",
+  "version": "1",
+  "author": {
+    "name": "FindData · 谦面"
+  },
+  "skills": [
+    "./skills"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "IBsyC2w-L9UUc1CDT-aMhg",
+  "description": "M5.3 构造验收：facet-demo 账号开放门自助发布的个人 AI 分身。",
+  "version": "1",
+  "author": {
+    "name": "FindData · 谦面"
+  },
+  "skills": [
+    "./skills"
+  ]
+}

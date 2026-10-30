@@ -1,0 +1,11 @@
+{
+  "name": "Aqag8Mky4ksoPmwRDMCVYw",
+  "description": "官方功能集（生态首发）：FindData 数据底座（fd-open-data-mcp 宏观/金融真数据）+ 官方 time/fetch 生态 server + 数据研究 persona。装上即可做可溯源的数据问答与网页取证。",
+  "version": "2",
+  "author": {
+    "name": "FindData · 谦面"
+  },
+  "skills": [
+    "./skills"
+  ]
+}

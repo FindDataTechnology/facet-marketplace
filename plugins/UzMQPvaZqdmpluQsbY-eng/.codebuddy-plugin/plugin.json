@@ -1,0 +1,11 @@
+{
+  "name": "UzMQPvaZqdmpluQsbY-eng",
+  "description": "刑事辩护套件：以总控流程技能为入口，串联认罪认罚/不起诉论证（审查起诉阶段）与庭审发问提纲（一审阶段），法条与指导案例走识律法律检索、法规效力走数据业务检索，类案与量刑参照走裁判文书检索。",
+  "version": "3",
+  "author": {
+    "name": "FindData · 谦面"
+  },
+  "skills": [
+    "./skills"
+  ]
+}

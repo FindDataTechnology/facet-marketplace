@@ -1,0 +1,11 @@
+{
+  "name": "mfaIAXHRVFQJaXPXyiAzKQ",
+  "description": "中国法（大陆）合同审查：五张行业审查卡（劳动用工 / 借贷融资 / 保密NDA / 买卖供货 / 服务与SaaS）× 法条核验与效力锚定 × law-bench 条款装配与三重评审，产出双轴风险问题清单、审查备忘录与**修订对比表**（原条款/修订后条款/修订理由与核验依据三列，v2 新增交付形态）。",
+  "version": "4",
+  "author": {
+    "name": "FindData · 谦面"
+  },
+  "skills": [
+    "./skills"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "8wJVZZnk369wm0oFScdecA",
+  "description": "萬星集群运行面运营集群：监视位（fleets.db 只读直查，连续失败点名到 member）+归账位（wanxing 只读盘点，凭据缺位如实降级）+合成位（每日简报+治理提案）。治理写操作一律提案+拍板（allowTools 工具面级排除）。",
+  "version": "3",
+  "author": {
+    "name": "FindData · 谦面"
+  }
+}

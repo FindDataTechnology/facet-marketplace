@@ -1,0 +1,11 @@
+{
+  "name": "1OQ93FLBzzVGcn2js31ADA",
+  "description": "学术论文的检索与研究：文献综述（方向定位与脉络梳理）、方法追踪（提出/变体/应用谱系）、相关工作（语义相似文献与对比矩阵）。语料覆盖 arXiv q-fin 与 cs.CL 等八个类目的千级样本（元数据 + 摘要，CC0 元数据）；外部开放检索（arXiv/OpenAlex/Semantic Scholar）编排补充。**版权红线**：只返回元数据、摘要、切块引用与指回 arXiv.org 的原文链接，本服务不提供也不外发论文全文。检索走 fd-text-core 引擎的混合通道（关键词 ⊕ 语义向量 Qwen3-Embedding-8B）。",
+  "version": "2",
+  "author": {
+    "name": "FindData · 谦面"
+  },
+  "skills": [
+    "./skills"
+  ]
+}
