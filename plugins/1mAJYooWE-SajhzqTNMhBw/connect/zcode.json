@@ -1,0 +1,23 @@
+{
+  "client": "zcode",
+  "pack": "1mAJYooWE-SajhzqTNMhBw",
+  "blocks": [
+    {
+      "client": "zcode",
+      "server": "fd-text-core",
+      "endpoint": "https://mcp.finddatatech.cloud/fd-text-core/mcp",
+      "lane": "L2",
+      "laneReason": "客户端「zcode」未证实用原生 OAuth、但接受静态 Authorization 头——走代持令牌（L2）",
+      "requiredGroup": "analysts",
+      "config": {
+        "type": "http",
+        "url": "https://mcp.finddatatech.cloud/fd-text-core/mcp",
+        "headers": {
+          "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+        }
+      },
+      "how": "先跑 `npx @finddatatechnology/facet auth <packRef> --target zcode --write-mcp`（它会完成授权并把短命令牌写入客户端配置），再把上面的 Authorization 值替换成命令输出的值；过期后跑 `facet auth --refresh` 静默续期。",
+      "credentialShape": "short-lived access token in a static header"
+    }
+  ]
+}

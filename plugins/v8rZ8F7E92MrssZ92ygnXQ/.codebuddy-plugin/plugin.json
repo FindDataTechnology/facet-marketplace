@@ -1,0 +1,8 @@
+{
+  "name": "v8rZ8F7E92MrssZ92ygnXQ",
+  "description": "对外产品介绍团队：前台「产品向导」+ 五条产品线专家（寻数·壹座/识律/柏讯/谦面/萬星），编导为前台→各专家的 dispatch 星型（会话型团队，无 cron 节奏——装上即等访客提问）。知识来源：www.finddatatech.cloud 官网中文页 /zh/（原始抓取，抓取日期 2026-10-30）与本仓公开 README（github.com/FindDataTechnology/platform）；官网改版时人工同步本种子并重跑守恒与红线测试。结构注：六岗全部自载（maxAgents 50，2026-10-30 用户裁决放宽，75df6914）——包自带完整团队，外来安装者零预创建、无降级路径。KPI 槽位：会话型团队无运营语义，不设（kpiSlots: []）。预校验兼容性结论（2026-10-30 实证）：无 cadence/显式 cadence:null 的岗位直接通过 parseFleetTemplate——design D2 的值守 cron 回退方案无需启用。本包声明 publicFacing=true（对外团队）：其岗位运行时只挂公开工具面（fleet 桥 + 市场公开面），禁用工作区文件工具与名册枚举工具——内部车道名不得进入访客可见的回答。红线：全部 persona 只含公开信息，词表 v4（智能体团队/小组/智能体/智能体市场），禁内部运营信息——scripts/test-product-intro-seed.mjs 以文本断言钉住。五线名以官网中文页原文为准（寻数·壹座/识律/柏讯/谦面/萬星）。",
+  "version": "5",
+  "author": {
+    "name": "FindData · 谦面"
+  }
+}

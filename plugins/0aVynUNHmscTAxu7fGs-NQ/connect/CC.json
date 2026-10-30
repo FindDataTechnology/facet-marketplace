@@ -1,0 +1,22 @@
+{
+  "client": "CC",
+  "pack": "0aVynUNHmscTAxu7fGs-NQ",
+  "blocks": [
+    {
+      "client": "CC",
+      "server": "chatwoot",
+      "endpoint": "https://mcp.finddatatech.cloud/chatwoot/mcp",
+      "lane": "L2",
+      "laneReason": "客户端「CC」未证实用原生 OAuth、但接受静态 Authorization 头——走代持令牌（L2）",
+      "config": {
+        "type": "http",
+        "url": "https://mcp.finddatatech.cloud/chatwoot/mcp",
+        "headers": {
+          "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+        }
+      },
+      "how": "先跑 `npx @finddatatechnology/facet auth <packRef> --target CC --write-mcp`（它会完成授权并把短命令牌写入客户端配置），再把上面的 Authorization 值替换成命令输出的值；过期后跑 `facet auth --refresh` 静默续期。",
+      "credentialShape": "short-lived access token in a static header"
+    }
+  ]
+}

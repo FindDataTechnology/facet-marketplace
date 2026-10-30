@@ -1,6 +1,6 @@
-# 法规追踪集群（模板）
+# 法规追踪团队
 
-识律法规更新集群模板：监视位每日扫新颁/修订/废止（fd-legal-search-mcp 权威法规面，32,296 口径单一事实源）→合成位更新简报+生效影响标注（法条引用文号+条款定位可回查）→产出位落简报草稿；无更新日报空。装包后经壹座「集群→从模板实例化」建队；纪律来自共用层能力包（同 cell 装）：fleet-intel-gather/fleet-brief-report/fleet-board-contribution。
+识律法规更新团队模板：监视位每日扫新颁/修订/废止（fd-legal-search-mcp 权威法规面，32,296 口径单一事实源）→合成位更新简报+生效影响标注（法条引用文号+条款定位可回查）→产出位落简报草稿；无更新日报空。装包后经壹座「团队→从模板实例化」建队；纪律来自共用层智能体（同 cell 装）：fleet-intel-gather/fleet-brief-report/fleet-board-contribution。
 
 ## 智能体
 

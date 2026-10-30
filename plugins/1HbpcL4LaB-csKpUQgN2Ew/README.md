@@ -1,6 +1,6 @@
-# 识律政心监测集群（模板）
+# 识律政心监测团队
 
-识律政心监测集群模板：监视位分域巡检 V-Dem/MARPOR 真库（fd-zhengxin-reference 读面）→合成位周报交叉核对（重大异动 escalate）→产出位落图集草稿。装包后经壹座「集群→从模板实例化」建队；岗位纪律来自共用层能力包（需同 cell 安装）：fleet-data-qa/fleet-brief-report/fleet-board-contribution。
+识律政心监测团队模板：监视位分域巡检 V-Dem/MARPOR 真库（fd-zhengxin-reference 读面）→合成位周报交叉核对（重大异动 escalate）→产出位落图集草稿。装包后经壹座「团队→从模板实例化」建队；岗位纪律来自共用层智能体（需同 cell 安装）：fleet-data-qa/fleet-brief-report/fleet-board-contribution。
 
 ## 智能体
 

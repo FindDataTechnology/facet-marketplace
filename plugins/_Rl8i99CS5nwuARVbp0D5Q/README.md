@@ -1,6 +1,6 @@
-# 能力包·闸控·评测哨
+# 评测哨
 
-集群共用能力包：评测岗的质量对拍纪律——按 gold 清单对拍目标岗产物（exact/方向/覆盖率），KPI 报数（hit_rate/direction_rate/coverage），漂移超阈值 escalate，评测报告落草稿。可选挂载岗。
+团队共用智能体：评测岗的质量对拍纪律——按 gold 清单对拍目标岗产物（exact/方向/覆盖率），KPI 报数（hit_rate/direction_rate/coverage），漂移超阈值 escalate，评测报告落草稿。可选挂载岗。
 
 ## 技能
 

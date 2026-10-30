@@ -5,118 +5,142 @@
   },
   "plugins": [
     {
-      "name": "C8wx14-4h7zJ0N19-J4NwQ",
-      "source": "./plugins/C8wx14-4h7zJ0N19-J4NwQ",
-      "description": "跨境电商政策面值守集群（L3 试点构造产物）：监视位（海关/商务部/税务/口岸四路 fd-info 公告流）→合成位（政策日报+三判据 escalate）→产出位（看板草稿，发布走提案）。纪律来自共用层能力包（同 cell 装）；构造来源蓝图 fleet-packs/blueprints/cross-border-ecom-policy/blueprint.json。",
+      "name": "egaYyOaZVTf0FWlLvaGAQA",
+      "source": "./plugins/egaYyOaZVTf0FWlLvaGAQA",
+      "description": "三员投研团队：宏观分析（环境）、估值分析（价值）、投委会多空质询（博弈）三个独立镜头审读同一问题。团队任务下扇出聚合；单聊可切换任一角色。舆情/风控等更多角色可入动态团队叠加。",
       "version": "4"
-    },
-    {
-      "name": "8wJVZZnk369wm0oFScdecA",
-      "source": "./plugins/8wJVZZnk369wm0oFScdecA",
-      "description": "萬星集群运行面运营集群：监视位（fleets.db 只读直查，连续失败点名到 member）+归账位（wanxing 只读盘点，凭据缺位如实降级）+合成位（每日简报+治理提案）。治理写操作一律提案+拍板（allowTools 工具面级排除）。",
-      "version": "3"
-    },
-    {
-      "name": "ujUI1A2caCUW7TG1Z1mlEg",
-      "source": "./plugins/ujUI1A2caCUW7TG1Z1mlEg",
-      "description": "谦面市场生态运营集群：监视位（周一深度盘点）+闸位（每日完整性日检，integrity 不可得如实降级）+合成位（每日简报+策写提案）。只读面巡检，策写一律提案+拍板（allowTools 工具面级排除）。",
-      "version": "3"
-    },
-    {
-      "name": "LjTJZWqSr2AOX7WEFTVlpg",
-      "source": "./plugins/LjTJZWqSr2AOX7WEFTVlpg",
-      "description": "营销线集群模板：选题→撰稿→审读→发布草稿四岗 handoff 链（错峰 cron ≥30min）+闸位岗独立对拍（gold 命中/覆盖，评测报告落草稿）。量级话术红线（禁精确数字）、审读放行唯一门、发布走提案不直发。装包后经壹座「从模板实例化」建队；纪律来自共用层四包（同 cell 装）。",
-      "version": "7"
-    },
-    {
-      "name": "IVCGxpg9itGnLpHxT1khWQ",
-      "source": "./plugins/IVCGxpg9itGnLpHxT1khWQ",
-      "description": "柏讯情报舆情集群模板：监视位→闸位双路并行→合成位交叉核对→产出位落看板草稿（trigger×3+handoff×3 编导）。装包后经壹座「集群→从模板实例化」建队；岗位纪律来自共用层四包（需同 cell 安装）：fleet-intel-gather/fleet-data-qa/fleet-brief-report/fleet-board-contribution。",
-      "version": "7"
-    },
-    {
-      "name": "O30LA92kq1D5uuNIBGKsZQ",
-      "source": "./plugins/O30LA92kq1D5uuNIBGKsZQ",
-      "description": "harness L3 构造面：把自然语言垂直描述编译成蓝图草稿（板块边界/数据源/集群编制/看板骨架/监控/验收口径），复用既有校验器 dry-run，diff 呈现后停等主人批准——批准才铸造上架与实例化。零新平台能力：只引用 fleet-architect 与 facet-market 既有面。蓝图格式见 fleet-packs/blueprints/schema.md。",
-      "version": "5"
     },
     {
       "name": "_Rl8i99CS5nwuARVbp0D5Q",
       "source": "./plugins/_Rl8i99CS5nwuARVbp0D5Q",
-      "description": "集群共用能力包：评测岗的质量对拍纪律——按 gold 清单对拍目标岗产物（exact/方向/覆盖率），KPI 报数（hit_rate/direction_rate/coverage），漂移超阈值 escalate，评测报告落草稿。可选挂载岗。",
-      "version": "4"
+      "description": "团队共用智能体：评测岗的质量对拍纪律——按 gold 清单对拍目标岗产物（exact/方向/覆盖率），KPI 报数（hit_rate/direction_rate/coverage），漂移超阈值 escalate，评测报告落草稿。可选挂载岗。",
+      "version": "7"
     },
     {
       "name": "y2_QsuKxV8dZFr-39_0zRQ",
       "source": "./plugins/y2_QsuKxV8dZFr-39_0zRQ",
-      "description": "集群共用能力包：数据问答/分析岗的只读纪律——数据集读面引用（列表/查询/聚合/行读），数字可溯源、口径注明、空结果如实、图表契约 v2 选型。只读，不含写面。",
-      "version": "3"
+      "description": "团队共用智能体：数据问答/分析岗的只读纪律——数据集读面引用（列表/查询/聚合/行读），数字可溯源、口径注明、空结果如实、图表契约 v2 选型。只读，不含写面。",
+      "version": "6"
     },
     {
       "name": "4z4dMrtNbTn2WcE-45QPfw",
       "source": "./plugins/4z4dMrtNbTn2WcE-45QPfw",
-      "description": "集群共用能力包：情报巡检岗的采集纪律——fd-info 检索面全套引用（list_since/get_item/search_info/locate_evidence/stream_health），按源清单巡检、原文先行、去重要点化、空结果带原因、未取得不编造。",
-      "version": "3"
+      "description": "团队共用智能体：情报巡检岗的采集纪律——fd-info 检索面全套引用（list_since/get_item/search_info/locate_evidence/stream_health），按源清单巡检、原文先行、去重要点化、空结果带原因、未取得不编造。",
+      "version": "6"
     },
     {
       "name": "Mo3_aWe7tF2eFVzkqFT9mA",
       "source": "./plugins/Mo3_aWe7tF2eFVzkqFT9mA",
-      "description": "集群共用能力包：投稿岗的产物写面纪律——wire-build 全套引用（建集/表单/记录视图/看板/文档/发布/治理），草稿优先、source_ref 三元组、列名预检、失败四分类。装配于任何板块的集群投稿岗。",
-      "version": "4"
+      "description": "团队共用智能体：投稿岗的产物写面纪律——wire-build 全套引用（建集/表单/记录视图/看板/文档/发布/治理），草稿优先、source_ref 三元组、列名预检、失败四分类。装配于任何板块的团队投稿岗。",
+      "version": "7"
     },
     {
       "name": "F8gbhNaEG6c2rDz468MwaA",
       "source": "./plugins/F8gbhNaEG6c2rDz468MwaA",
-      "description": "集群共用能力包：合成位/主编岗的报数与简报纪律——report_status 槽位报数（与集群 KPI 槽位逐字对齐）、晨报/周报骨架、escalate 拍板规范、未取得不编造。装配于任何板块的集群合成位。",
-      "version": "3"
+      "description": "团队共用智能体：合成位/主编岗的报数与简报纪律——report_status 槽位报数（与团队 KPI 槽位逐字对齐）、晨报/周报骨架、escalate 拍板规范、未取得不编造。装配于任何板块的团队合成位。",
+      "version": "6"
     },
     {
-      "name": "_PGsJcBwYoeZU0kCfU-2Qg",
-      "source": "./plugins/_PGsJcBwYoeZU0kCfU-2Qg",
-      "description": "盯政策变化并出晨报",
-      "version": "2"
+      "name": "8wJVZZnk369wm0oFScdecA",
+      "source": "./plugins/8wJVZZnk369wm0oFScdecA",
+      "description": "萬星团队运行面运营团队：监视位（fleets.db 只读直查，连续失败点名到 member）+归账位（wanxing 只读盘点，凭据缺位如实降级）+合成位（每日简报+治理提案）。治理写操作一律提案+拍板（allowTools 工具面级排除）。",
+      "version": "5"
     },
     {
-      "name": "SWPvacoFTftfVngMMFotwQ",
-      "source": "./plugins/SWPvacoFTftfVngMMFotwQ",
-      "description": "柏讯产物构建套件：用对话把数据变成控制台里看得见的东西——建数据录入表单、建单记录扫码页、改产物 spec、发布与归档。草稿优先、发布独立；列名先取事实，禁止编造；失败原样转述。附带一支三岗集群模板（巡线岗主动、内容岗与源岗被动），把「持续迭代内容」编成可安装的组织形态。",
-      "version": "3"
+      "name": "ujUI1A2caCUW7TG1Z1mlEg",
+      "source": "./plugins/ujUI1A2caCUW7TG1Z1mlEg",
+      "description": "谦面市场生态运营团队：监视位（周一深度盘点）+闸位（每日完整性日检，integrity 不可得如实降级）+合成位（每日简报+策写提案）。只读面巡检，策写一律提案+拍板（allowTools 工具面级排除）。",
+      "version": "5"
     },
     {
-      "name": "tkHe8IHE0BuDYYIg5LglUw",
-      "source": "./plugins/tkHe8IHE0BuDYYIg5LglUw",
-      "description": "官方集群模板：周流水线内容工厂——主编周一主持选题会，选题策划立项、撰稿人周二至四成稿，审校为被动岗（受委托唤醒，演示成员间横向协作的唯一通道 delegation）。演示：周节奏流水线、被动岗受委托唤醒、文档工具面；编导段为 trigger(周一)→handoff 流水线（主编→策划→撰稿）+ 撰稿 dispatch 委托审校、审校 report 上行主编。铸造上架时 packId/agents 按铸造脚本补齐；本文件是清单真源，测试钉住其必须通过 fleet 段预校验。",
+      "name": "LjTJZWqSr2AOX7WEFTVlpg",
+      "source": "./plugins/LjTJZWqSr2AOX7WEFTVlpg",
+      "description": "营销线团队模板：选题→撰稿→审读→发布草稿四岗 handoff 链（错峰 cron ≥30min）+闸位岗独立对拍（gold 命中/覆盖，评测报告落草稿）。量级话术红线（禁精确数字）、审读放行唯一门、发布走提案不直发。装包后经壹座「从模板实例化」建队；纪律来自共用层四包（同 cell 装）。",
+      "version": "10"
+    },
+    {
+      "name": "Y99VUN6RdWs98ocK0ZAN8A",
+      "source": "./plugins/Y99VUN6RdWs98ocK0ZAN8A",
+      "description": "lex 营销内容团队模板（content-factory 变体）：采集位（客户场景与行业痛点）→合成位（量级话术，不用精确数字）→闸位（红线审读必设）→产出位（落官网/CMS 草稿，发布走动作闸提案不直发）。装包后经壹座「团队→从模板实例化」建队；纪律来自共用层四包（同 cell 装）：fleet-intel-gather/fleet-brief-report/fleet-data-qa/fleet-board-contribution。",
       "version": "4"
     },
     {
-      "name": "NoBBXkvxZnJNHlCrAwWp-w",
-      "source": "./plugins/NoBBXkvxZnJNHlCrAwWp-w",
-      "description": "壹座聊天内的集群自然语言编排面：把用户的话编译成集群结构草稿，经校验与成本预估呈 diff，用户批准后落地。管编制不管作战——不做运行时指挥。铸造上架时 packId/占位符按铸造脚本补齐；本文件是清单真源，测试钉住其必须通过 pack 清单校验。",
+      "name": "ZCot-b6HsnJRTTDKr_aunQ",
+      "source": "./plugins/ZCot-b6HsnJRTTDKr_aunQ",
+      "description": "识律法规更新团队模板：监视位每日扫新颁/修订/废止（fd-legal-search-mcp 权威法规面，32,296 口径单一事实源）→合成位更新简报+生效影响标注（法条引用文号+条款定位可回查）→产出位落简报草稿；无更新日报空。装包后经壹座「团队→从模板实例化」建队；纪律来自共用层智能体（同 cell 装）：fleet-intel-gather/fleet-brief-report/fleet-board-contribution。",
       "version": "4"
     },
     {
-      "name": "56opYgliV9FYAmhmsDIJOw",
-      "source": "./plugins/56opYgliV9FYAmhmsDIJOw",
-      "description": "官方集群模板：每日晨报情报站——科技与市场情报员每日清晨分头巡检，情报主编 8 点合成晨报；另含集群引用岗（existing-cluster，每周一做深度聚合，演示集群 fan-out 引用与派生报数）。演示：双情报源并行、晨报流、cluster 引用岗（公司种子只演示了 a2a）；编导段为 trigger+handoff 链（两情报员巡检完成接棒主编合成）与集群 report 上行。铸造上架时 packId/agents 按铸造脚本补齐；本文件是清单真源，测试钉住其必须通过 fleet 段预校验。",
+      "name": "1HbpcL4LaB-csKpUQgN2Ew",
+      "source": "./plugins/1HbpcL4LaB-csKpUQgN2Ew",
+      "description": "识律政心监测团队模板：监视位分域巡检 V-Dem/MARPOR 真库（fd-zhengxin-reference 读面）→合成位周报交叉核对（重大异动 escalate）→产出位落图集草稿。装包后经壹座「团队→从模板实例化」建队；岗位纪律来自共用层智能体（需同 cell 安装）：fleet-data-qa/fleet-brief-report/fleet-board-contribution。",
       "version": "4"
+    },
+    {
+      "name": "IVCGxpg9itGnLpHxT1khWQ",
+      "source": "./plugins/IVCGxpg9itGnLpHxT1khWQ",
+      "description": "柏讯情报舆情团队模板：监视位→闸位双路并行→合成位交叉核对→产出位落看板草稿（trigger×3+handoff×3 编导）。装包后经壹座「团队→从模板实例化」建队；岗位纪律来自共用层四包（需同 cell 安装）：fleet-intel-gather/fleet-data-qa/fleet-brief-report/fleet-board-contribution。",
+      "version": "9"
+    },
+    {
+      "name": "O30LA92kq1D5uuNIBGKsZQ",
+      "source": "./plugins/O30LA92kq1D5uuNIBGKsZQ",
+      "description": "蓝图构造间构造面：把自然语言垂直描述编译成蓝图草稿（板块边界/数据源/团队编制/看板骨架/监控/验收口径），复用既有校验器 dry-run，diff 呈现后停等主人批准——批准才铸造上架与实例化。只引用 fleet-architect 与 facet-market 既有工具面，蓝图格式以平台校验器为准。",
+      "version": "8"
+    },
+    {
+      "name": "C8wx14-4h7zJ0N19-J4NwQ",
+      "source": "./plugins/C8wx14-4h7zJ0N19-J4NwQ",
+      "description": "跨境电商政策面值守团队：监视位（海关/商务部/税务/口岸四路 fd-info 公告流）→合成位（政策日报+三判据 escalate）→产出位（看板草稿，发布走提案）。纪律来自共用层智能体（同 cell 装）；由蓝图构造间按自然语言需求建成，可溯源。",
+      "version": "7"
     },
     {
       "name": "YMSt-hRNiNWXrlLYC8PSiA",
       "source": "./plugins/YMSt-hRNiNWXrlLYC8PSiA",
-      "description": "官方集群模板：三层级联的投研晨会——首席分析师汇总宏观/行业研究员晨报并拍板上行，风控官为被动岗（受委托或拍板批复唤醒）。演示：三层组织（{{fleetContext}} 只注入直接下级，中间层向上浓缩）、交易日节奏、escalate 驱动的被动岗；编导段为 trigger+handoff 级联（两研究员晨检完成接棒首席）与首席 dispatch 委托风控官。铸造上架时 packId/agents 按铸造脚本补齐；本文件是清单真源，测试钉住其必须通过 fleet 段预校验。",
-      "version": "4"
-    },
-    {
-      "name": "aofNf6o2LR61lPK8IVVkJw",
-      "source": "./plugins/aofNf6o2LR61lPK8IVVkJw",
-      "description": "官方集群模板样板：CEO 巡视（{{fleetContext}} 注入）+ 三真数据岗（开源/投资）+ 助理引用岗 + 两连接器空态岗（电商/内容，演示待补岗降级）+ 萬星集群 a2a optional 成员（演示依赖缺位降级）。pack 自带 agents 上限 3（铸造实证），故助理为 existing-persona 引用岗；编导段为 supervisor 式 dispatch——CEO 可向各部门派活（显式 dispatch 边，非全舰 implicit）。铸造上架时 packId/占位符按铸造脚本补齐；本文件是清单真源，测试钉住其必须通过 fleet 段预校验。",
-      "version": "4"
+      "description": "官方团队模板：三层级联的投研晨会——首席分析师汇总宏观/行业研究员晨报并拍板上行，风控官为被动岗（受委托或拍板批复唤醒）。演示：三层组织（{{fleetContext}} 只注入直接下级，中间层向上浓缩）、交易日节奏、escalate 驱动的被动岗；编导段为 trigger+handoff 级联（两研究员晨检完成接棒首席）与首席 dispatch 委托风控官。铸造上架时 packId/agents 按铸造脚本补齐；本文件是清单真源，测试钉住其必须通过 fleet 段预校验。",
+      "version": "5"
     },
     {
       "name": "EMGW14N8voa1b36LSuTxxw",
       "source": "./plugins/EMGW14N8voa1b36LSuTxxw",
-      "description": "官方集群模板：高频客服护航——客服组长每 4 小时带队巡检工单，一线客服处理、质检员抽检；组长对疑难工单用 escalate 合并上报（演示对抗每日防洪上限的上报纪律）与 CRM 客服工具面（凭据未配置时如实空转，不整体失败）。恰 3 岗满编无引用岗；编导段演示入站唤醒：event 边 bot:{{SERVICE_BOT}} 入站唤醒一线客服（客服 bot 为运营期配置的通道实例，缺位由运行期如实判定），一线 report 上行组长、组长可 dispatch 直接派单一线。铸造上架时 packId/agents/占位符按铸造脚本补齐；本文件是清单真源，测试钉住其必须通过 fleet 段预校验。",
+      "description": "官方团队模板：高频客服护航——客服组长每 4 小时带队巡检工单，一线客服处理、质检员抽检；组长对疑难工单用 escalate 合并上报（演示对抗每日防洪上限的上报纪律）与 CRM 客服工具面（凭据未配置时如实空转，不整体失败）。恰 3 岗满编无引用岗；编导段演示入站唤醒：event 边 bot:{{SERVICE_BOT}} 入站唤醒一线客服（客服 bot 为运营期配置的通道实例，缺位由运行期如实判定），一线 report 上行组长、组长可 dispatch 直接派单一线。铸造上架时 packId/agents/占位符按铸造脚本补齐；本文件是清单真源，测试钉住其必须通过 fleet 段预校验。",
+      "version": "5"
+    },
+    {
+      "name": "aofNf6o2LR61lPK8IVVkJw",
+      "source": "./plugins/aofNf6o2LR61lPK8IVVkJw",
+      "description": "官方团队模板样板：CEO 巡视（{{fleetContext}} 注入）+ 三真数据岗（开源/投资）+ 助理引用岗 + 两连接器空态岗（电商/内容，演示待补岗降级）+ 萬星团队 a2a optional 成员（演示依赖缺位降级）。pack 自带 agents 上限 3（铸造实证），故助理为 existing-persona 引用岗；编导段为 supervisor 式 dispatch——CEO 可向各部门派活（显式 dispatch 边，非全舰 implicit）。铸造上架时 packId/占位符按铸造脚本补齐；本文件是清单真源，测试钉住其必须通过 fleet 段预校验。",
+      "version": "5"
+    },
+    {
+      "name": "56opYgliV9FYAmhmsDIJOw",
+      "source": "./plugins/56opYgliV9FYAmhmsDIJOw",
+      "description": "官方团队模板：每日晨报情报站——科技与市场情报员每日清晨分头巡检，情报主编 8 点合成晨报；另含团队引用岗（existing-cluster，每周一做深度聚合，演示团队 fan-out 引用与派生报数）。演示：双情报源并行、晨报流、cluster 引用岗（公司种子只演示了 a2a）；编导段为 trigger+handoff 链（两情报员巡检完成接棒主编合成）与团队 report 上行。铸造上架时 packId/agents 按铸造脚本补齐；本文件是清单真源，测试钉住其必须通过 fleet 段预校验。",
+      "version": "5"
+    },
+    {
+      "name": "NoBBXkvxZnJNHlCrAwWp-w",
+      "source": "./plugins/NoBBXkvxZnJNHlCrAwWp-w",
+      "description": "壹座聊天内的团队自然语言编排面：把用户的话编译成团队结构草稿，经校验与成本预估呈 diff，用户批准后落地。管编制不管作战——不做运行时指挥。铸造上架时 packId/占位符按铸造脚本补齐；本文件是清单真源，测试钉住其必须通过 pack 清单校验。",
+      "version": "5"
+    },
+    {
+      "name": "tkHe8IHE0BuDYYIg5LglUw",
+      "source": "./plugins/tkHe8IHE0BuDYYIg5LglUw",
+      "description": "官方团队模板：周流水线内容工厂——主编周一主持选题会，选题策划立项、撰稿人周二至四成稿，审校为被动岗（受委托唤醒，演示成员间横向协作的唯一通道 delegation）。演示：周节奏流水线、被动岗受委托唤醒、文档工具面；编导段为 trigger(周一)→handoff 流水线（主编→策划→撰稿）+ 撰稿 dispatch 委托审校、审校 report 上行主编。铸造上架时 packId/agents 按铸造脚本补齐；本文件是清单真源，测试钉住其必须通过 fleet 段预校验。",
+      "version": "5"
+    },
+    {
+      "name": "SWPvacoFTftfVngMMFotwQ",
+      "source": "./plugins/SWPvacoFTftfVngMMFotwQ",
+      "description": "柏讯产物构建套件：用对话把数据变成控制台里看得见的东西——建数据录入表单、建单记录扫码页、改产物 spec、发布与归档。草稿优先、发布独立；列名先取事实，禁止编造；失败原样转述。附带一支三岗团队模板（巡线岗主动、内容岗与源岗被动），把「持续迭代内容」编成可安装的组织形态。",
       "version": "4"
+    },
+    {
+      "name": "v8rZ8F7E92MrssZ92ygnXQ",
+      "source": "./plugins/v8rZ8F7E92MrssZ92ygnXQ",
+      "description": "对外产品介绍团队：前台「产品向导」+ 五条产品线专家（寻数·壹座/识律/柏讯/谦面/萬星），编导为前台→各专家的 dispatch 星型（会话型团队，无 cron 节奏——装上即等访客提问）。知识来源：www.finddatatech.cloud 官网中文页 /zh/（原始抓取，抓取日期 2026-10-30）与本仓公开 README（github.com/FindDataTechnology/platform）；官网改版时人工同步本种子并重跑守恒与红线测试。结构注：六岗全部自载（maxAgents 50，2026-10-30 用户裁决放宽，75df6914）——包自带完整团队，外来安装者零预创建、无降级路径。KPI 槽位：会话型团队无运营语义，不设（kpiSlots: []）。预校验兼容性结论（2026-10-30 实证）：无 cadence/显式 cadence:null 的岗位直接通过 parseFleetTemplate——design D2 的值守 cron 回退方案无需启用。本包声明 publicFacing=true（对外团队）：其岗位运行时只挂公开工具面（fleet 桥 + 市场公开面），禁用工作区文件工具与名册枚举工具——内部车道名不得进入访客可见的回答。红线：全部 persona 只含公开信息，词表 v4（智能体团队/小组/智能体/智能体市场），禁内部运营信息——scripts/test-product-intro-seed.mjs 以文本断言钉住。五线名以官网中文页原文为准（寻数·壹座/识律/柏讯/谦面/萬星）。",
+      "version": "5"
     },
     {
       "name": "50Tp176hW0HYTTWXZbarKA",
@@ -135,24 +159,6 @@
       "source": "./plugins/INdsRWpgpp2Q03I0z3XoFA",
       "description": "在壹座中操作萬星机群的专用助手——浏览 agent 目录、读详情、查看部署状态。只读工具 + 提议通道，所有写操作需经动作闸确认。",
       "version": "3"
-    },
-    {
-      "name": "Y99VUN6RdWs98ocK0ZAN8A",
-      "source": "./plugins/Y99VUN6RdWs98ocK0ZAN8A",
-      "description": "lex 营销内容集群模板（content-factory 变体）：采集位（客户场景与行业痛点）→合成位（量级话术，不用精确数字）→闸位（红线审读必设）→产出位（落官网/CMS 草稿，发布走动作闸提案不直发）。装包后经壹座「集群→从模板实例化」建队；纪律来自共用层四包（同 cell 装）：fleet-intel-gather/fleet-brief-report/fleet-data-qa/fleet-board-contribution。",
-      "version": "2"
-    },
-    {
-      "name": "ZCot-b6HsnJRTTDKr_aunQ",
-      "source": "./plugins/ZCot-b6HsnJRTTDKr_aunQ",
-      "description": "识律法规更新集群模板：监视位每日扫新颁/修订/废止（fd-legal-search-mcp 权威法规面，32,296 口径单一事实源）→合成位更新简报+生效影响标注（法条引用文号+条款定位可回查）→产出位落简报草稿；无更新日报空。装包后经壹座「集群→从模板实例化」建队；纪律来自共用层能力包（同 cell 装）：fleet-intel-gather/fleet-brief-report/fleet-board-contribution。",
-      "version": "2"
-    },
-    {
-      "name": "1HbpcL4LaB-csKpUQgN2Ew",
-      "source": "./plugins/1HbpcL4LaB-csKpUQgN2Ew",
-      "description": "识律政心监测集群模板：监视位分域巡检 V-Dem/MARPOR 真库（fd-zhengxin-reference 读面）→合成位周报交叉核对（重大异动 escalate）→产出位落图集草稿。装包后经壹座「集群→从模板实例化」建队；岗位纪律来自共用层能力包（需同 cell 安装）：fleet-data-qa/fleet-brief-report/fleet-board-contribution。",
-      "version": "2"
     },
     {
       "name": "IBsyC2w-L9UUc1CDT-aMhg",
@@ -356,12 +362,6 @@
       "name": "XfyXvzONQFelnFIgM0dJVw",
       "source": "./plugins/XfyXvzONQFelnFIgM0dJVw",
       "description": "识律控制台的副驾：五页导览、配额与账单口径解读、凭据管理指引；经问询卡确认后可提议 navigate/refresh 页面动作（由宿主页面执行）。无账户数据读取与写操作工具，绝不编造数字。",
-      "version": "2"
-    },
-    {
-      "name": "egaYyOaZVTf0FWlLvaGAQA",
-      "source": "./plugins/egaYyOaZVTf0FWlLvaGAQA",
-      "description": "三员投研团队：宏观分析（环境）、估值分析（价值）、投委会多空质询（博弈）三个独立镜头审读同一问题。集群任务下扇出聚合；单聊可切换任一角色。舆情/风控等更多角色可入动态集群叠加。",
       "version": "2"
     },
     {

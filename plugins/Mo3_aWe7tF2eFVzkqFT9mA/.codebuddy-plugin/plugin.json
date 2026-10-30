@@ -1,7 +1,7 @@
 {
   "name": "Mo3_aWe7tF2eFVzkqFT9mA",
-  "description": "集群共用能力包：投稿岗的产物写面纪律——wire-build 全套引用（建集/表单/记录视图/看板/文档/发布/治理），草稿优先、source_ref 三元组、列名预检、失败四分类。装配于任何板块的集群投稿岗。",
-  "version": "4",
+  "description": "团队共用智能体：投稿岗的产物写面纪律——wire-build 全套引用（建集/表单/记录视图/看板/文档/发布/治理），草稿优先、source_ref 三元组、列名预检、失败四分类。装配于任何板块的团队投稿岗。",
+  "version": "7",
   "author": {
     "name": "FindData · 谦面"
   },

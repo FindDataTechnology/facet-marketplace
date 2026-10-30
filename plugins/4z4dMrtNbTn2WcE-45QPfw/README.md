@@ -1,6 +1,6 @@
-# 能力包·采集·情报采集
+# 情报采集
 
-集群共用能力包：情报巡检岗的采集纪律——fd-info 检索面全套引用（list_since/get_item/search_info/locate_evidence/stream_health），按源清单巡检、原文先行、去重要点化、空结果带原因、未取得不编造。
+团队共用智能体：情报巡检岗的采集纪律——fd-info 检索面全套引用（list_since/get_item/search_info/locate_evidence/stream_health），按源清单巡检、原文先行、去重要点化、空结果带原因、未取得不编造。
 
 ## 技能
 
