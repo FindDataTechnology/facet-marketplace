@@ -1,0 +1,10 @@
+{
+  "name": "NBUjv3Z8HWNpEjblQzB6Ow",
+  "description": "投研团队评测舰的舰队模板：两岗错峰（评测 11:07 / 审计 11:37）——评测岗按客户自己的决策账本 gold 对拍在册投研团队，出 pending / overdue / hit_rate / as_of_gaps 四类读数；审计岗复核评测结论本身并把判词单独落库。评测方结构上不持账本写面（禁自证）：gold 只取账本与回合账本，不取岗位报数；隔离未成立时读数必须带标注，且不得呈现为某客户的命中率。",
+  "version": "2",
+  "author": {
+    "name": "FindData · 谦面"
+  },
+  "mcpServers": "./.mcp.json",
+  "hooks": "./hooks/hooks.json"
+}

@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "wanxing-ops-mcp": {
+      "type": "http",
+      "url": "https://mcp.finddatatech.cloud/wanxing-ops-mcp/mcp",
+      "headers": {
+        "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+      }
+    }
+  }
+}

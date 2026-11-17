@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "fd-text-core": {
+      "type": "http",
+      "url": "https://mcp.finddatatech.cloud/fd-text-core/mcp",
+      "headers": {
+        "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+      }
+    }
+  }
+}

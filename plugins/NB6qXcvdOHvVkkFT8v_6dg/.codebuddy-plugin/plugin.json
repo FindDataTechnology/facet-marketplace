@@ -1,0 +1,13 @@
+{
+  "name": "NB6qXcvdOHvVkkFT8v_6dg",
+  "description": "投研团队评测舰的岗位 preset 源：评测岗（按客户账本 gold 对拍产物，报 pending/overdue/hit_rate/as_of_gaps 四类读数）与审计岗（对评测结论本身复核，判词单独落）。评测方结构上不持账本写面——`record_decision` / `settle_decision` 都不在工具面里，这是禁自证的可执行形式。",
+  "version": "3",
+  "author": {
+    "name": "FindData · 谦面"
+  },
+  "skills": [
+    "./skills"
+  ],
+  "mcpServers": "./.mcp.json",
+  "hooks": "./hooks/hooks.json"
+}

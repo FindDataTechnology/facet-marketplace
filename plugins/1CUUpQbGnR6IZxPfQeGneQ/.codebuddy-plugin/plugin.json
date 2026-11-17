@@ -1,0 +1,10 @@
+{
+  "name": "1CUUpQbGnR6IZxPfQeGneQ",
+  "description": "ERP 团队铸造舰的岗位 preset 源：巡检岗（只读盘矩阵格/在队团队/市场漂移，市场走公开只读端点）、设计岗（按缺口出团队草案并跑包级干跑）、拍板岗（如实报告上架依赖与阻塞）。工具面只引用 cell 内无需网关凭据的 fleet-architect 五件，逐岗经 resources.mcpTools 收窄；带 credentialRef 的 server 在无凭据时会被整层丢弃，故不引用。",
+  "version": "5",
+  "author": {
+    "name": "FindData · 谦面"
+  },
+  "mcpServers": "./.mcp.json",
+  "hooks": "./hooks/hooks.json"
+}

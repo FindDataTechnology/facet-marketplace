@@ -1,0 +1,11 @@
+{
+  "name": "5y0_Gislp_OgElqq4zPswA",
+  "description": "Edit PDFs with natural-language instructions using the nano-pdf CLI.",
+  "version": "5",
+  "author": {
+    "name": "FindData · 谦面"
+  },
+  "skills": [
+    "./skills"
+  ]
+}

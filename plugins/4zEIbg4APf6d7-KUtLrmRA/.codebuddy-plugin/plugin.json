@@ -1,0 +1,12 @@
+{
+  "name": "4zEIbg4APf6d7-KUtLrmRA",
+  "description": "跨境电商行业监测团队模板：参谋岗每周扫外圈需求画像（观测面 TradeFlow 伙伴国分轴/FxRate/PolicyNotice 热度 + 柏讯 fd-info 需求信号定性参考）→合成位复跑验证出行业周报→产出位落看板草稿。装包后经壹座「团队→从模板实例化」建队；纪律来自共用层三包+值守岗包 crossborder-watch-roles（同 cell 安装）。边界：需求侧事实 only，内圈未授权标不可得。",
+  "version": "1",
+  "author": {
+    "name": "FindData · 谦面"
+  },
+  "skills": [
+    "./skills"
+  ],
+  "mcpServers": "./.mcp.json"
+}

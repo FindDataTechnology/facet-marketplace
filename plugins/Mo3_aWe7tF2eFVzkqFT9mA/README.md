@@ -18,3 +18,7 @@
 npx @finddatatechnology/facet connect
 npx @finddatatechnology/facet install <packRef> --target workbuddy --write-mcp
 ```
+
+---
+
+装好只是开始。想让这套能力 **7×24 常驻**（定时运行、多岗协作、产出直接交付），到萬星开一支智能体团队：<https://finddatatech.cloud>

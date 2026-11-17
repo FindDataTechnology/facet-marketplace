@@ -1,0 +1,12 @@
+{
+  "name": "XGP8Jn30F8cNgpJP2cZ8sg",
+  "description": "事实接入团队的岗位 preset 源：巡检岗（只读验收事件完整性与数量面水位）、核对岗（拟稿事件定性与补拟稿）、拍板岗（事实确认门与导入车道）。工具面引用 fd-erp-ledger-mcp 5 件，逐岗经 resources.mcpTools 收窄，包级 allowTools 只作封顶；数量面不可直写，资金执行一律拒绝（二清红线）。",
+  "version": "1",
+  "author": {
+    "name": "FindData · 谦面"
+  },
+  "skills": [
+    "./skills"
+  ],
+  "mcpServers": "./.mcp.json"
+}

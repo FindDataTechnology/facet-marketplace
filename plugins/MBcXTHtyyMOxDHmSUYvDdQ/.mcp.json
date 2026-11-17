@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "fd-find-data-business-mcp": {
+      "type": "http",
+      "url": "https://mcp.finddatatech.cloud/fd-find-data-business-mcp/mcp",
+      "headers": {
+        "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+      }
+    },
+    "fd-daas-mcp": {
+      "type": "http",
+      "url": "https://mcp.finddatatech.cloud/fd-daas-mcp/mcp",
+      "headers": {
+        "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+      }
+    }
+  }
+}

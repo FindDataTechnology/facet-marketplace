@@ -1,0 +1,12 @@
+{
+  "name": "0LVfedThOxtymbwlbdZtGw",
+  "description": "跨境电商行业线四大值守岗位：合规分流、关务单证要素、选品参谋、物流值守。三件套=职责边界/工作纪律/输出契约；mcpServers 仅引用在册三服务；allowTools ⊆ 试点同款清单。",
+  "version": "2",
+  "author": {
+    "name": "FindData · 谦面"
+  },
+  "skills": [
+    "./skills"
+  ],
+  "mcpServers": "./.mcp.json"
+}

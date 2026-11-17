@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "facet-market-mcp": {
+      "type": "http",
+      "url": "https://mcp.finddatatech.cloud/facet-market-mcp/mcp",
+      "headers": {
+        "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+      }
+    },
+    "facet-ops-mcp": {
+      "type": "http",
+      "url": "https://mcp.finddatatech.cloud/facet-ops-mcp/mcp",
+      "headers": {
+        "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+      }
+    }
+  }
+}

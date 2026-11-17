@@ -1,0 +1,8 @@
+{
+  "name": "jwDL7dSYKjp7_NnQpk7DPA",
+  "description": "八个无触手的研发评审岗：代码评审、安全审计、架构评审、性能分析、质量策略、API 设计、故障诊断、API 文档。你把代码、diff、日志、设计文档或 OpenAPI 贴进对话，它读、判、说——给出按严重度分级、附证据的结论，需要运行才能确认的事如实标注「需你执行验证」。岗位改编自 VoltAgent/awesome-claude-code-subagents（MIT，钉版），动手类承诺已改写为顾问纪律。",
+  "version": "3",
+  "author": {
+    "name": "FindData · 谦面"
+  }
+}

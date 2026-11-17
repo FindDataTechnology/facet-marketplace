@@ -1,0 +1,12 @@
+{
+  "name": "axjqegkJ9pXQRTnZqR3knQ",
+  "description": "过账治理团队的岗位 preset 源：巡检岗（只读盘规则与待补清单）、核对岗（缺规则事件定性与规则草稿）、拍板岗（规则审批门与过账）。工具面引用 fd-erp-ledger-mcp 5 件，逐岗经 resources.mcpTools 收窄，包级 allowTools 只作封顶；缺规则不猜科目，资金执行一律拒绝（二清红线）。",
+  "version": "1",
+  "author": {
+    "name": "FindData · 谦面"
+  },
+  "skills": [
+    "./skills"
+  ],
+  "mcpServers": "./.mcp.json"
+}

@@ -1,0 +1,39 @@
+{
+  "mcpServers": {
+    "infra-telemetry": {
+      "type": "http",
+      "url": "https://mcp.finddatatech.cloud/infra-telemetry/mcp",
+      "headers": {
+        "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+      }
+    },
+    "fleet-architect": {
+      "type": "http",
+      "url": "https://mcp.finddatatech.cloud/fleet-architect/mcp",
+      "headers": {
+        "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+      }
+    },
+    "blueprint-author": {
+      "type": "http",
+      "url": "https://mcp.finddatatech.cloud/blueprint-author/mcp",
+      "headers": {
+        "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+      }
+    },
+    "facet-market": {
+      "type": "http",
+      "url": "https://mcp.finddatatech.cloud/facet-market/mcp",
+      "headers": {
+        "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+      }
+    },
+    "actions-mcp": {
+      "type": "http",
+      "url": "https://mcp.finddatatech.cloud/actions-mcp/mcp",
+      "headers": {
+        "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+      }
+    }
+  }
+}

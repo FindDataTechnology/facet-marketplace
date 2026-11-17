@@ -1,0 +1,12 @@
+{
+  "name": "DKndawIPc34oz6oWMHLgwQ",
+  "description": "信用额度团队的岗位 preset 源：巡检岗（只读核额度位与占用到期）、核对岗（孤儿占用定性与释放建议）、拍板岗（占额与释放）。工具面引用 fd-erp-ledger-mcp 6 件，逐岗经 resources.mcpTools 收窄，包级 allowTools 只作封顶；额度为备忘不写分录，资金执行一律拒绝（二清红线）。",
+  "version": "1",
+  "author": {
+    "name": "FindData · 谦面"
+  },
+  "skills": [
+    "./skills"
+  ],
+  "mcpServers": "./.mcp.json"
+}

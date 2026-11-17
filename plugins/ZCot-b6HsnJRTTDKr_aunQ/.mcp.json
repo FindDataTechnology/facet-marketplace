@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "fd-legal-search-mcp": {
+      "type": "http",
+      "url": "https://mcp.finddatatech.cloud/fd-legal-search-mcp/mcp",
+      "headers": {
+        "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+      }
+    },
+    "wire-build-mcp": {
+      "type": "http",
+      "url": "https://mcp.finddatatech.cloud/wire-build-mcp/mcp",
+      "headers": {
+        "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+      }
+    }
+  }
+}

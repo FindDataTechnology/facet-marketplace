@@ -1,0 +1,12 @@
+{
+  "name": "kyZNb-aDEEmpUfed1kp7TA",
+  "description": "启材线（教育）盯梢舰队模板：盯梢哨每回合对教育目录出逐条目增量清单（新资源/更新/撤回，类别/目标/观测值三栏机器可数），零增量照记台账，通道故障显式报因；写面=订阅两工具（唯一写面），Owner 授意的订阅变更走 escalate。单回合口径收窄防超时。",
+  "version": "2",
+  "author": {
+    "name": "FindData · 谦面"
+  },
+  "skills": [
+    "./skills"
+  ],
+  "mcpServers": "./.mcp.json"
+}

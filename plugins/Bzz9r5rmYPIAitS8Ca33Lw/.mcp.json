@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "vaas-wanxing": {
+      "type": "http",
+      "url": "https://mcp.finddatatech.cloud/vaas-wanxing/mcp",
+      "headers": {
+        "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+      }
+    }
+  }
+}

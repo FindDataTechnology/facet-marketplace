@@ -27,12 +27,60 @@
 }
 ```
 
-### facet-market
+### facet-market-mcp
 
 ```json
 {
   "type": "http",
-  "url": "https://mcp.finddatatech.cloud/facet-market/mcp",
+  "url": "https://mcp.finddatatech.cloud/facet-market-mcp/mcp",
+  "headers": {
+    "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+  }
+}
+```
+
+### blueprint-author
+
+```json
+{
+  "type": "http",
+  "url": "https://mcp.finddatatech.cloud/blueprint-author/mcp",
+  "headers": {
+    "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+  }
+}
+```
+
+### actions
+
+```json
+{
+  "type": "http",
+  "url": "https://mcp.finddatatech.cloud/actions/mcp",
+  "headers": {
+    "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+  }
+}
+```
+
+### pack-author
+
+```json
+{
+  "type": "http",
+  "url": "https://mcp.finddatatech.cloud/pack-author/mcp",
+  "headers": {
+    "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+  }
+}
+```
+
+### fd-open-data-mcp
+
+```json
+{
+  "type": "http",
+  "url": "https://mcp.finddatatech.cloud/fd-open-data-mcp/mcp",
   "headers": {
     "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
   }
@@ -55,12 +103,60 @@
 }
 ```
 
-### facet-market
+### facet-market-mcp
 
 ```json
 {
   "type": "http",
-  "url": "https://mcp.finddatatech.cloud/facet-market/mcp",
+  "url": "https://mcp.finddatatech.cloud/facet-market-mcp/mcp",
+  "headers": {
+    "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+  }
+}
+```
+
+### blueprint-author
+
+```json
+{
+  "type": "http",
+  "url": "https://mcp.finddatatech.cloud/blueprint-author/mcp",
+  "headers": {
+    "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+  }
+}
+```
+
+### actions
+
+```json
+{
+  "type": "http",
+  "url": "https://mcp.finddatatech.cloud/actions/mcp",
+  "headers": {
+    "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+  }
+}
+```
+
+### pack-author
+
+```json
+{
+  "type": "http",
+  "url": "https://mcp.finddatatech.cloud/pack-author/mcp",
+  "headers": {
+    "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+  }
+}
+```
+
+### fd-open-data-mcp
+
+```json
+{
+  "type": "http",
+  "url": "https://mcp.finddatatech.cloud/fd-open-data-mcp/mcp",
   "headers": {
     "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
   }
@@ -83,12 +179,60 @@
 }
 ```
 
-### facet-market
+### facet-market-mcp
 
 ```json
 {
   "type": "http",
-  "url": "https://mcp.finddatatech.cloud/facet-market/mcp",
+  "url": "https://mcp.finddatatech.cloud/facet-market-mcp/mcp",
+  "headers": {
+    "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+  }
+}
+```
+
+### blueprint-author
+
+```json
+{
+  "type": "http",
+  "url": "https://mcp.finddatatech.cloud/blueprint-author/mcp",
+  "headers": {
+    "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+  }
+}
+```
+
+### actions
+
+```json
+{
+  "type": "http",
+  "url": "https://mcp.finddatatech.cloud/actions/mcp",
+  "headers": {
+    "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+  }
+}
+```
+
+### pack-author
+
+```json
+{
+  "type": "http",
+  "url": "https://mcp.finddatatech.cloud/pack-author/mcp",
+  "headers": {
+    "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+  }
+}
+```
+
+### fd-open-data-mcp
+
+```json
+{
+  "type": "http",
+  "url": "https://mcp.finddatatech.cloud/fd-open-data-mcp/mcp",
   "headers": {
     "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
   }
@@ -111,12 +255,60 @@
 }
 ```
 
-### facet-market
+### facet-market-mcp
 
 ```json
 {
   "type": "http",
-  "url": "https://mcp.finddatatech.cloud/facet-market/mcp",
+  "url": "https://mcp.finddatatech.cloud/facet-market-mcp/mcp",
+  "headers": {
+    "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+  }
+}
+```
+
+### blueprint-author
+
+```json
+{
+  "type": "http",
+  "url": "https://mcp.finddatatech.cloud/blueprint-author/mcp",
+  "headers": {
+    "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+  }
+}
+```
+
+### actions
+
+```json
+{
+  "type": "http",
+  "url": "https://mcp.finddatatech.cloud/actions/mcp",
+  "headers": {
+    "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+  }
+}
+```
+
+### pack-author
+
+```json
+{
+  "type": "http",
+  "url": "https://mcp.finddatatech.cloud/pack-author/mcp",
+  "headers": {
+    "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+  }
+}
+```
+
+### fd-open-data-mcp
+
+```json
+{
+  "type": "http",
+  "url": "https://mcp.finddatatech.cloud/fd-open-data-mcp/mcp",
   "headers": {
     "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
   }
@@ -139,12 +331,60 @@
 }
 ```
 
-### facet-market
+### facet-market-mcp
 
 ```json
 {
   "type": "http",
-  "url": "https://mcp.finddatatech.cloud/facet-market/mcp",
+  "url": "https://mcp.finddatatech.cloud/facet-market-mcp/mcp",
+  "headers": {
+    "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+  }
+}
+```
+
+### blueprint-author
+
+```json
+{
+  "type": "http",
+  "url": "https://mcp.finddatatech.cloud/blueprint-author/mcp",
+  "headers": {
+    "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+  }
+}
+```
+
+### actions
+
+```json
+{
+  "type": "http",
+  "url": "https://mcp.finddatatech.cloud/actions/mcp",
+  "headers": {
+    "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+  }
+}
+```
+
+### pack-author
+
+```json
+{
+  "type": "http",
+  "url": "https://mcp.finddatatech.cloud/pack-author/mcp",
+  "headers": {
+    "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+  }
+}
+```
+
+### fd-open-data-mcp
+
+```json
+{
+  "type": "http",
+  "url": "https://mcp.finddatatech.cloud/fd-open-data-mcp/mcp",
   "headers": {
     "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
   }
@@ -167,12 +407,60 @@
 }
 ```
 
-### facet-market
+### facet-market-mcp
 
 ```json
 {
   "type": "http",
-  "url": "https://mcp.finddatatech.cloud/facet-market/mcp",
+  "url": "https://mcp.finddatatech.cloud/facet-market-mcp/mcp",
+  "headers": {
+    "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+  }
+}
+```
+
+### blueprint-author
+
+```json
+{
+  "type": "http",
+  "url": "https://mcp.finddatatech.cloud/blueprint-author/mcp",
+  "headers": {
+    "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+  }
+}
+```
+
+### actions
+
+```json
+{
+  "type": "http",
+  "url": "https://mcp.finddatatech.cloud/actions/mcp",
+  "headers": {
+    "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+  }
+}
+```
+
+### pack-author
+
+```json
+{
+  "type": "http",
+  "url": "https://mcp.finddatatech.cloud/pack-author/mcp",
+  "headers": {
+    "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+  }
+}
+```
+
+### fd-open-data-mcp
+
+```json
+{
+  "type": "http",
+  "url": "https://mcp.finddatatech.cloud/fd-open-data-mcp/mcp",
   "headers": {
     "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
   }

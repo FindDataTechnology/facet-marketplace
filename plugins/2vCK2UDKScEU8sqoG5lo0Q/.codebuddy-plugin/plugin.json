@@ -1,0 +1,12 @@
+{
+  "name": "2vCK2UDKScEU8sqoG5lo0Q",
+  "description": "餐饮行业监测团队：监视位读宏观、成本链、公司财务与披露事件并给出缺口归因，合成位交叉复核产出值守记录，产出位落草稿产物。只读纪律，不写观测、不发布对外产物。",
+  "version": "2",
+  "author": {
+    "name": "FindData · 谦面"
+  },
+  "skills": [
+    "./skills"
+  ],
+  "mcpServers": "./.mcp.json"
+}

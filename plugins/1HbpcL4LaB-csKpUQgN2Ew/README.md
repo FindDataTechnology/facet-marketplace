@@ -2,6 +2,11 @@
 
 识律政心监测团队模板：监视位分域巡检 V-Dem/MARPOR 真库（fd-zhengxin-reference 读面）→合成位周报交叉核对（重大异动 escalate）→产出位落图集草稿。装包后经壹座「团队→从模板实例化」建队；岗位纪律来自共用层智能体（需同 cell 安装）：fleet-data-qa/fleet-brief-report/fleet-board-contribution。
 
+## 技能
+
+- zx-source-readiness-gate — 六源就绪门：source_status 判就绪/延迟/未就绪三档，未就绪整源跳过并如实记录。
+- zx-timeseries-anomaly-card — 异动卡五栏：国家/指标/年份对/差值/快照版本，阈值来源必须可复核。
+
 ## 智能体
 
 - 监视位 — 按国家×指标域分批巡检 V-Dem/MARPOR 更新与异动
@@ -21,3 +26,7 @@
 npx @finddatatechnology/facet connect
 npx @finddatatechnology/facet install <packRef> --target workbuddy --write-mcp
 ```
+
+---
+
+装好只是开始。想让这套能力 **7×24 常驻**（定时运行、多岗协作、产出直接交付），到萬星开一支智能体团队：<https://finddatatech.cloud>

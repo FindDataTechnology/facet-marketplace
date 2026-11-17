@@ -1,0 +1,13 @@
+{
+  "name": "tfwxGKbISnOJGoICKv_GAg",
+  "description": "门店巡检三岗团队包：巡店记录（只记录不改动）→ 整改跟踪（一件一单、状态三值）→ 周报复盘（完成率与复发口径固定）；三岗错峰 ≥30 分钟、fd-memory handoff 交接、每岗收尾 report_status；门店台账与整改回执两源需开户，随包移交。",
+  "version": "1",
+  "author": {
+    "name": "FindData · 谦面"
+  },
+  "skills": [
+    "./skills"
+  ],
+  "mcpServers": "./.mcp.json",
+  "hooks": "./hooks/hooks.json"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "zntPCL4QwGhX0xebLg30Uw",
+  "description": "计费团队的岗位 preset 源：巡检岗（只读盘点规则与费用）、核对岗（重算试算与规则草稿，只出提案）、拍板岗（规则审批门与费用红冲）。工具面引用 fd-erp-ledger-mcp 8 件，逐岗经 resources.mcpTools 收窄，包级 allowTools 只作封顶；资金执行（资金池/代收代付/分账）一律拒绝（二清红线）。",
+  "version": "1",
+  "author": {
+    "name": "FindData · 谦面"
+  },
+  "skills": [
+    "./skills"
+  ],
+  "mcpServers": "./.mcp.json"
+}

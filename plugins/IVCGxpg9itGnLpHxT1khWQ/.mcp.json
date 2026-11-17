@@ -1,0 +1,32 @@
+{
+  "mcpServers": {
+    "fd-info": {
+      "type": "http",
+      "url": "https://mcp.finddatatech.cloud/fd-info/mcp",
+      "headers": {
+        "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+      }
+    },
+    "wire-ops": {
+      "type": "http",
+      "url": "https://mcp.finddatatech.cloud/wire-ops/mcp",
+      "headers": {
+        "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+      }
+    },
+    "wire-build-mcp": {
+      "type": "http",
+      "url": "https://mcp.finddatatech.cloud/wire-build-mcp/mcp",
+      "headers": {
+        "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+      }
+    },
+    "fd-sentiment": {
+      "type": "http",
+      "url": "https://mcp.finddatatech.cloud/fd-sentiment/mcp",
+      "headers": {
+        "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+      }
+    }
+  }
+}

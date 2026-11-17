@@ -1,0 +1,12 @@
+{
+  "name": "EqlwaCssvIsqvobKMopiFQ",
+  "description": "lex 合同签署团队模板（stub 内测口径）：发起与跟催岗经柏讯动作闸只做发起/催签/查状态/归档四动作，pending 后本轮收工下轮轮询；签署只发生在唯一人类确认面，岗位结构性无代签能力。装包后经壹座「团队→从模板实例化」建队；电子签四纪律随 persona 与 esign-gate-discipline 技能自带（红线级不委托共享包），无共用层依赖。stub 内测通道无司法效力宣称。",
+  "version": "3",
+  "author": {
+    "name": "FindData · 谦面"
+  },
+  "skills": [
+    "./skills"
+  ],
+  "mcpServers": "./.mcp.json"
+}

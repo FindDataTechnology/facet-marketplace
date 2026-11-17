@@ -1,0 +1,41 @@
+{
+  "$comment": "This pack declares a memory block. Hooks call the locally installed `yongyi` binary; without it they are no-ops. Store scope, write authority and distillation are resolved by the memory service from your identity, not from this file.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "yongyi hook workbuddy sessionstart",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "yongyi hook workbuddy posttooluse",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "yongyi hook workbuddy stop",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

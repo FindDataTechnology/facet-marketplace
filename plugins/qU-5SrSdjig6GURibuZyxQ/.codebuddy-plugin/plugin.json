@@ -1,0 +1,11 @@
+{
+  "name": "qU-5SrSdjig6GURibuZyxQ",
+  "description": "仓配分销模板·取价规则 pack：客户专属价/活动价/优惠券三层规则（规则带生效期与出处 rate_source，无出处规则拒绝上架）。运行时规则经 PricingRuleBook 确认车道配置；本包是市场分发的种子规则集（演示口径，客户实施时按其价格政策替换）。取价可溯源：逐规则链带出处（pricing.resolve_price provenance）。",
+  "version": "1",
+  "author": {
+    "name": "FindData · 谦面"
+  },
+  "skills": [
+    "./skills"
+  ]
+}

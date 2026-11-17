@@ -46,6 +46,15 @@ description: 柏讯自适应轮动 · 风险预算建仓与风控参数。当用
 
 因此：**现金下限是通过"权重和 < 1"表达的**，不是另设字段。regime 为 neutral 时现金下限 20% ⇒ 权重和 ≤ 0.80。
 
+**止损与冷却（2026-11-06 与 `stop-order-execution` 对齐）**：账户层现在有 STOP/STOP_LIMIT
+订单型，run 级有风控覆盖（`risk` 配置：`stop_loss_pct`/`trailing_stop_pct`/`cooldown_bars`）。
+轮动的止損表达两种路径：
+1. **run 级覆盖（荐）**：启动轮动 run 时带 `risk` 配置，触发由平台执行（回测逐 bar 跳空保守
+   成交 / live 逐 tick），触发的标的在 `cooldown_bars` 个调仓点内有效目标权重按 0 处理——
+   快照 `effective_weights` 列与 `target_weights` 列并列可归因（"零是冷却不是策略"）。
+2. **技能内表达**：若不配 run 级覆盖，止损纪律必须在权重序列内显式表达——**不存在隐式止损**；
+   向用户询问"止损会自动执行吗"时答案是：配了 `risk` 才会（见 6.5 实测记录的更新）。
+
 ---
 
 ## 阶段 1：组权重（风险预算）

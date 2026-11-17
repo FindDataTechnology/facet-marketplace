@@ -1,0 +1,12 @@
+{
+  "name": "AH5iRdho7xEJIMplpL2BjA",
+  "description": "酒店行业监测团队：监视位读星级饭店季度口径、出游与出入境需求、欧盟住宿序列与 33 家酒店公司财务细分并给出缺口归因；合成位交叉复核产出值守记录；产出位落草稿产物。只读纪律，不写观测、不发布对外产物。",
+  "version": "4",
+  "author": {
+    "name": "FindData · 谦面"
+  },
+  "skills": [
+    "./skills"
+  ],
+  "mcpServers": "./.mcp.json"
+}

@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "wire-ops": {
+      "type": "http",
+      "url": "https://mcp.finddatatech.cloud/wire-ops/mcp",
+      "headers": {
+        "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+      }
+    },
+    "bench-proposal": {
+      "type": "http",
+      "url": "https://mcp.finddatatech.cloud/bench-proposal/mcp",
+      "headers": {
+        "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+      }
+    }
+  }
+}

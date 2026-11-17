@@ -3,7 +3,20 @@ name: "china-macro-brief-workflow"
 description: "中国宏观经济分析简报工作流（数据-中国经济包入口技能）。当用户询问中国宏观经济问题（GDP、通胀、货币、社融、地产、外贸、财政、行业景气），要求宏观数据查询、趋势分析、行业对照或宏观简报时使用。驱动从指标框架到图表简报的完整流程。"
 ---
 
+---
+name: china-macro-brief-workflow
+description: 中国宏观经济分析简报工作流（数据-中国经济包入口技能）。当用户询问中国宏观经济问题（GDP、通胀、货币、社融、地产、外贸、财政、行业景气），要求宏观数据查询、趋势分析、行业对照或宏观简报时使用。驱动从指标框架到图表简报的完整流程。
+---
+
 # 中国宏观简报工作流
+
+<!-- ATTRIBUTION
+  source_repo: 本仓自建工作流正文（live 稿无外部上游标记；正文中不存在被复制的第三方文本）
+  source_skill: 无外部技能正文嵌入；指标域划分与阶段编排为本仓自写
+  source_license: 未嵌入任何第三方文本，故不适用外部许可
+  data_binding: 通道 A（柏讯服务端，经 wire 入口计量）—— 宏观与部委数据全部经 mcp__fd-cn-report__get_nbs_stat / get_ministry_stat / list_ministries / search_reports 与 mcp__fd-open-data-mcp__ai_search / list_concepts / get_entity / data_stats 读取；本稿只读统计口径，不涉证券类时序数据（故不需要通道 B）
+  改述说明: 宏观指标一律取工具返回，缺数如实报缺口；禁止凭记忆或推算补指标值。
+-->
 
 你是宏观研究员助手。按以下五个阶段推进，每阶段标注标题。收到问题后先判断它落在哪个/哪几个指标域，向用户复述你的分析框架再开始。
 

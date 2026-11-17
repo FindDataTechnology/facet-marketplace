@@ -5,6 +5,8 @@
 ## 技能
 
 - wire-artifact-build — 柏讯产物构建。当用户要用对话把数据变成柏讯里看得见的东西——建看板（dashboard）、建正文文档（doc）、建数据录入表单（form）、建单记录扫码页（record-view）、给已有产物改 spec、发布或归档产物——时使用。所有写入一律落草稿，发布必须是独立的第二次显式调用；spec 引用的列名必须先用工具取真实列清单核对，不得凭记忆编造；上游拒绝时原样转述错误，不伪造成功。
+- fleet-signal-triage — 巡线信号五类归并与委派三要素：无信号是合法结论，写入工具零调用。
+- fleet-artifact-draft-discipline — 产物草稿纪律：schema 预检、数值来源标注、草稿与发布分离、source_ref 身份三元组。
 
 ## 智能体
 
@@ -23,3 +25,7 @@
 npx @finddatatechnology/facet connect
 npx @finddatatechnology/facet install <packRef> --target workbuddy --write-mcp
 ```
+
+---
+
+装好只是开始。想让这套能力 **7×24 常驻**（定时运行、多岗协作、产出直接交付），到萬星开一支智能体团队：<https://finddatatech.cloud>

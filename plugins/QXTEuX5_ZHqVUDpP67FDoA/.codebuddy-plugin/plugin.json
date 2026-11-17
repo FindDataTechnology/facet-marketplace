@@ -1,0 +1,12 @@
+{
+  "name": "QXTEuX5_ZHqVUDpP67FDoA",
+  "description": "发票对账团队的岗位 preset 源：巡检岗（只读跑对账取四类差异）、核对岗（差异定性与 pending 提案）、拍板岗（唯一确认门）。工具面引用 fd-erp-ledger-mcp 7 件，逐岗经 resources.mcpTools 收窄，包级 allowTools 只作封顶；对账零外部写入，资金执行一律拒绝（二清红线）。",
+  "version": "1",
+  "author": {
+    "name": "FindData · 谦面"
+  },
+  "skills": [
+    "./skills"
+  ],
+  "mcpServers": "./.mcp.json"
+}

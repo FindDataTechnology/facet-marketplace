@@ -51,6 +51,18 @@
 }
 ```
 
+### fd-sentiment
+
+```json
+{
+  "type": "http",
+  "url": "https://mcp.finddatatech.cloud/fd-sentiment/mcp",
+  "headers": {
+    "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+  }
+}
+```
+
 ## CC（L2）
 
 先跑 `npx @finddatatechnology/facet auth <packRef> --target CC --write-mcp`（它会完成授权并把短命令牌写入客户端配置），再把上面的 Authorization 值替换成命令输出的值；过期后跑 `facet auth --refresh` 静默续期。
@@ -85,6 +97,18 @@
 {
   "type": "http",
   "url": "https://mcp.finddatatech.cloud/wire-build-mcp/mcp",
+  "headers": {
+    "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+  }
+}
+```
+
+### fd-sentiment
+
+```json
+{
+  "type": "http",
+  "url": "https://mcp.finddatatech.cloud/fd-sentiment/mcp",
   "headers": {
     "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
   }
@@ -131,6 +155,18 @@
 }
 ```
 
+### fd-sentiment
+
+```json
+{
+  "type": "http",
+  "url": "https://mcp.finddatatech.cloud/fd-sentiment/mcp",
+  "headers": {
+    "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+  }
+}
+```
+
 ## zcode（L2）
 
 先跑 `npx @finddatatechnology/facet auth <packRef> --target zcode --write-mcp`（它会完成授权并把短命令牌写入客户端配置），再把上面的 Authorization 值替换成命令输出的值；过期后跑 `facet auth --refresh` 静默续期。
@@ -165,6 +201,18 @@
 {
   "type": "http",
   "url": "https://mcp.finddatatech.cloud/wire-build-mcp/mcp",
+  "headers": {
+    "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+  }
+}
+```
+
+### fd-sentiment
+
+```json
+{
+  "type": "http",
+  "url": "https://mcp.finddatatech.cloud/fd-sentiment/mcp",
   "headers": {
     "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
   }
@@ -211,6 +259,18 @@
 }
 ```
 
+### fd-sentiment
+
+```json
+{
+  "type": "http",
+  "url": "https://mcp.finddatatech.cloud/fd-sentiment/mcp",
+  "headers": {
+    "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+  }
+}
+```
+
 ## gemini-cli（L2）
 
 先跑 `npx @finddatatechnology/facet auth <packRef> --target gemini-cli --write-mcp`（它会完成授权并把短命令牌写入客户端配置），再把上面的 Authorization 值替换成命令输出的值；过期后跑 `facet auth --refresh` 静默续期。
@@ -245,6 +305,18 @@
 {
   "type": "http",
   "url": "https://mcp.finddatatech.cloud/wire-build-mcp/mcp",
+  "headers": {
+    "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+  }
+}
+```
+
+### fd-sentiment
+
+```json
+{
+  "type": "http",
+  "url": "https://mcp.finddatatech.cloud/fd-sentiment/mcp",
   "headers": {
     "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
   }

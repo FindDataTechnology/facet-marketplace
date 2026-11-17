@@ -2,6 +2,12 @@
 
 lex 营销内容团队模板（content-factory 变体）：采集位（客户场景与行业痛点）→合成位（量级话术，不用精确数字）→闸位（红线审读必设）→产出位（落官网/CMS 草稿，发布走动作闸提案不直发）。装包后经壹座「团队→从模板实例化」建队；纪律来自共用层四包（同 cell 装）：fleet-intel-gather/fleet-brief-report/fleet-data-qa/fleet-board-contribution。
 
+## 技能
+
+- legal-marketing-magnitude-wording — 量级话术对照表：各类对外指标的合规模级表述与禁用精确数字清单。
+- legal-product-claim-checklist — 识律产品能力表述清单：可写功能事实、禁写效果承诺与案件结论。
+- lex-scenario-pitch-card — 选题卡模板：场景/痛点/产品面/成稿理由四栏，一题一卡。
+
 ## 智能体
 
 - 采集位 — 客户场景与行业痛点选题
@@ -21,3 +27,7 @@ lex 营销内容团队模板（content-factory 变体）：采集位（客户场
 npx @finddatatechnology/facet connect
 npx @finddatatechnology/facet install <packRef> --target workbuddy --write-mcp
 ```
+
+---
+
+装好只是开始。想让这套能力 **7×24 常驻**（定时运行、多岗协作、产出直接交付），到萬星开一支智能体团队：<https://finddatatech.cloud>

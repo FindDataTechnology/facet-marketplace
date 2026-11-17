@@ -1,0 +1,32 @@
+{
+  "mcpServers": {
+    "fd-cn-report": {
+      "type": "http",
+      "url": "https://mcp.finddatatech.cloud/fd-cn-report/mcp",
+      "headers": {
+        "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+      }
+    },
+    "fd-quant": {
+      "type": "http",
+      "url": "https://mcp.finddatatech.cloud/fd-quant/mcp",
+      "headers": {
+        "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+      }
+    },
+    "fd-daas-mcp": {
+      "type": "http",
+      "url": "https://mcp.finddatatech.cloud/fd-daas-mcp/mcp",
+      "headers": {
+        "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+      }
+    },
+    "wire-build-mcp": {
+      "type": "http",
+      "url": "https://mcp.finddatatech.cloud/wire-build-mcp/mcp",
+      "headers": {
+        "Authorization": "Bearer ${FACET_ACCESS_TOKEN}"
+      }
+    }
+  }
+}

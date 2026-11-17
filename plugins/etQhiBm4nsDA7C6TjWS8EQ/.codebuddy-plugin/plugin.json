@@ -1,0 +1,13 @@
+{
+  "name": "etQhiBm4nsDA7C6TjWS8EQ",
+  "description": "投研团队铸造舰的岗位 preset 源：巡检岗（只读盘在册投研团队的编制/节奏/看板、市场在架投研套件与版本、源↔市场漂移）、设计岗（按缺口出模板蓝图草稿与现役编制草案并跑既有校验链干跑）、拍板岗（只读市场并把已确认变更做成提案送拍板队列）。逐岗 resources.mcpTools 按越界点收窄；包级 allowTools 只是封顶。不重铸投研技能，投研能力一律以跨包引用组装。",
+  "version": "4",
+  "author": {
+    "name": "FindData · 谦面"
+  },
+  "skills": [
+    "./skills"
+  ],
+  "mcpServers": "./.mcp.json",
+  "hooks": "./hooks/hooks.json"
+}
